@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+
+<body>
+    <section class="all">
+        <div class="left">
+            <div class="first">
+                <img src="/images/inec-logo.png" alt="">
+                <div class="alert">
+                    <p>Security Alert</p>
+                    <p>Notification System</p>
+                    <!-- <iconify-icon icon="fe:bar"></iconify-icon> -->
+                </div>
+            </div>
+            <ul>
+                <a href="/html/dashboard.html"><iconify-icon icon="clarity:dashboard-solid"></iconify-icon>
+                    <li>Dashboard</li>
+                </a>
+                <a href="/html/emergency.html"><iconify-icon icon="material-symbols:e911-emergency-outline"></iconify-icon>
+                    <li>Emergency Report</li>
+                </a>
+                <a href="/html/alert.html"><iconify-icon icon="jam:alert"></iconify-icon>
+                    <li>Alerts</li>
+                </a>
+                <a href="/html/user.html"><iconify-icon icon="eos-icons:content-lifecycle-management"></iconify-icon>
+                    <li>User Management</li>
+                </a>
+                <a href="/html/settings.html"><iconify-icon icon="carbon:settings"></iconify-icon>
+                    <li>Settings</li>
+                </a>
+                <a href="/html/index.html"><iconify-icon icon="icon-park:logout"></iconify-icon>
+                    <li>Logout</li>
+                </a>
+            </ul>
+        </div>
+        <div class="now">
+            <div class="second">
+                <img src="/images/inec-logo.png" alt="">
+                <div class="alet">
+                    <p>Security Alert</p>
+                    <p>Notification System</p>
+                    <!-- <iconify-icon icon="fe:bar"></iconify-icon> -->
+                    <iconify-icon id="cancel" icon="material-symbols-light:cancel-outline"></iconify-icon>
+                </div>
+            </div>
+            <ul>
+                <a href="/html/dashboard.html"><iconify-icon icon="clarity:dashboard-solid"></iconify-icon>
+                    <li>Dashboard</li>
+                </a>
+                <a href="/html/emergency.html"><iconify-icon icon="material-symbols:e911-emergency-outline"></iconify-icon>
+                    <li>Emergency Report</li>
+                </a>
+                <a href="/html/alert.html"><iconify-icon icon="jam:alert"></iconify-icon>
+                    <li>Alerts</li>
+                </a>
+                <a href="/html/user.html"><iconify-icon icon="eos-icons:content-lifecycle-management"></iconify-icon>
+                    <li>User Management</li>
+                </a>
+                <a href="/html/settings.html"><iconify-icon icon="carbon:settings"></iconify-icon>
+                    <li>Settings</li>
+                </a>
+                <a href="/html/index.html"><iconify-icon icon="icon-park:logout"></iconify-icon>
+                    <li>Logout</li>
+                </a>
+            </ul>
+        </div>
+        <div class="right">
+            <header>
+                <h2>Dashboard</h2>
+                <!-- <iconify-icon icon="fe:bar"></iconify-icon> -->
+                <div class="not">
+                    <iconify-icon id="bar" icon="fe:bar"></iconify-icon>
+                    <p><a href="/html/notify.html"><iconify-icon icon="clarity:notification-line"></iconify-icon></a></p>
+                    <p>Field Admin</p>
+                </div>
+            </header>
+            <section class="hdr">
+                <div class="lh">
+                    <p>Realtime flashpoints -120</p>
+                    <ul>
+                        <div class="para">
+                            <p style="color: #e9cf81;">Low<li>2</li>
+                            </p>
+                        </div>
+                        <div class="para2">
+                            <p style="color: #fbac4d;">Medium<li>8</li>
+                            </p>
+                        </div>
+                        <div class="para1">
+                            <p style="color: #a83a3a;">High<li>2</li>
+                            </p>
+                        </div>
+                        <div class="para3">
+                            <p style="color: #fc3d3e;">Critical<li>88</li>
+                            </p>
+                        </div>
+                    </ul>
+                    <section class="analy">
+                        <h4>Analytics</h4>
+                        <div class="btn">
+                            <button>
+                                <p>Total no of alerts</p> <a href="">40</a>
+                            </button>
+                        </div>
+                        <div class="btn2">
+                            <button>
+                                <p>Total no of unassigned alerts</p> <a href="">474</a>
+                            </button>
+                        </div>
+                        <div class="btn3">
+                            <button>
+                                <p>Total no of unresolved alerts</p> <a href="">10</a>
+                            </button>
+                        </div>
+                    </section>
+                    <section class="loca">
+                        <p>Locations with the most Alerts</p>
+                        <div class="but">
+                            <button>Abuja</button>
+                            <button>Jos</button>
+                            <button>Kaduna</button>
+                            <button>Lagos</button>
+                            <button>Ogun</button>
+                            <button>Kaduna</button>
+                            <button>Abuja</button>
+                            <button>Jos</button>
+                            <button>Kaduna</button>
+                        </div>
+                    </section>
+                </div>
+                <div class="rh">
+                    <div class="ret">
+                        <p>Filter By:</p>
+                        <div class="slg">
+                            <select name="state" id="state">
+                                <option value="state">State</option>
+                                <option value="state">Country</option>
+                            </select>
+                            <select name="lga" id="lga">
+                                <option value="lga">LGA</option>
+                                <option value="lga">LCDA</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="710" height="599" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Gbongan-Osogbo%20road,%20Osogbo,%20Osun%20state,Nigeria230261&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 599px;
+                                    width: 710px;
+                                    /* z-index: -9;                             */
+                                }
+                                @media (max-width:1400px) {
+                                    .mapouter{
+                                        width: 100%;
+                                    }
+                                }
+                                @media (max-width:1220px) {
+                                    .mapouter{
+                                        width: 100%;
+                                    }
+                                }
+                                /* @media (max-width:960px) {
+                                    .mapouter{
+                                        width: 100%;
+                                        height: 70px;
+                                    }
+                                } */
+                            </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 599px;
+                                    width: 700px;
+                                    z-index: -999;                            
+                                }
+                                @media (max-width:1400px) {
+                                    .gmap_canvas{
+                                        width: 100%;
+                                    }
+                                }
+                                /* @media (max-width:960px) {
+                                    .gmap_canvas{
+                                        width: 100%;
+                                        height: 190vh;
+                                    }
+                                } */
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert-report</title>
+    <link rel="stylesheet" href="/css/areport.css">
+</head>
+
+<body>
+    <section class="all">
+        <div class="left">
+            <div class="first">
+                <img src="/images/inec-logo.png" alt="">
+                <div class="alert">
+                    <p>Security Alert</p>
+                    <p>Notification System</p>
+                    <!-- <iconify-icon icon="fe:bar"></iconify-icon> -->
+                </div>
+            </div>
+            <ul>
+                <a href="/html/dashboard.html"><iconify-icon icon="clarity:dashboard-solid"></iconify-icon>
+                    <li>Dashboard</li>
+                </a>
+                <a href="/html/emergency.html"><iconify-icon icon="material-symbols:e911-emergency-outline"></iconify-icon>
+                    <li>Emergency Report</li>
+                </a>
+                <a href="/html/alert.html"><iconify-icon icon="jam:alert"></iconify-icon>
+                    <li>Alerts</li>
+                </a>
+                <a href="/html/user.html"><iconify-icon icon="eos-icons:content-lifecycle-management"></iconify-icon>
+                    <li>User Management</li>
+                </a>
+                <a href="/html/settings.html"><iconify-icon icon="carbon:settings"></iconify-icon>
+                    <li>Settings</li>
+                </a>
+                <a href="/html/index.html"><iconify-icon icon="icon-park:logout"></iconify-icon>
+                    <li>Logout</li>
+                </a>
+            </ul>
+        </div>
+        <div class="now">
+            <div class="second">
+                <img src="/images/inec-logo.png" alt="">
+                <div class="alet">
+                    <p>Security Alert</p>
+                    <p>Notification System</p>
+                    <!-- <iconify-icon icon="fe:bar"></iconify-icon> -->
+                    <iconify-icon id="cancel" icon="material-symbols-light:cancel-outline"></iconify-icon>
+                </div>
+            </div>
+            <ul>
+                <a href="/html/dashboard.html"><iconify-icon icon="clarity:dashboard-solid"></iconify-icon>
+                    <li>Dashboard</li>
+                </a>
+                <a href="/html/emergency.html"><iconify-icon icon="material-symbols:e911-emergency-outline"></iconify-icon>
+                    <li>Emergency Report</li>
+                </a>
+                <a href="/html/alert.html"><iconify-icon icon="jam:alert"></iconify-icon>
+                    <li>Alerts</li>
+                </a>
+                <a href="/html/user.html"><iconify-icon icon="eos-icons:content-lifecycle-management"></iconify-icon>
+                    <li>User Management</li>
+                </a>
+                <a href="/html/settings.html"><iconify-icon icon="carbon:settings"></iconify-icon>
+                    <li>Settings</li>
+                </a>
+                <a href="/html/index.html"><iconify-icon icon="icon-park:logout"></iconify-icon>
+                    <li>Logout</li>
+                </a>
+            </ul>
+        </div>
+        <div class="right">
+            <header>
+                <h2>Alerts</h2>
+                <!-- <iconify-icon icon="fe:bar"></iconify-icon> -->
+                <div class="not">
+                    <iconify-icon id="bar" icon="fe:bar"></iconify-icon>
+                    <p><a href="/html/notify.html"><iconify-icon icon="clarity:notification-line"></iconify-icon></a>
+                    </p>
+                    <p>Field Admin</p>
+                </div>
+            </header>
+            <section class="bust">
+                <div class="are">
+                    <a href="/html/alert.html"><p>Analytics</p></a>
+                    <a href=""><p>Reports</p></a>
+                </div>
+                <div class="but">
+                    <button class="bnt1">Export as png</button>
+                    <button class="bnt2">Export as csv</button>
+                </div>
+            </section>
+            <div class="rest">
+                <div class="fb">
+                    <p>Filter By:</p>
+                </div>
+                <div class="dsl">
+                    <select name="date" id="date" class="date">
+                        <option value="date">Date</option>
+                        <option value="date">Time</option>
+                    </select>
+                    <select name="state" id="state" class="state">
+                        <option value="state">State</option>
+                        <option value="state">Country</option>
+                    </select>
+                    <select name="lga" id="lga" class="lga">
+                        <option value="lga">LGA</option>
+                        <option value="lga">LCDA</option>
+                    </select>
+                </div>
+                <div class="rst">
+                    <p>Reset Filter</p>
+                </div>
+            </div>
+            <div class="others">
+                <div class="hold">
+                    <div class="pre">
+                        <p>Pending</p>
+                        <p>Resolved</p>
+                    </div>
+                    <div class="search">
+                        <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
+                        <p>Search</p>
+                    </div>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <div class="typ">
+                                        <p>Alert Type</p>
+                                    </div>
+                                </th>
+                                <div class="sev">
+                                    <th>Severity</th>
+                                    <th>Address</th>
+                                </div>
+                                <div class="end">
+                                    <th>Sender</th>
+                                </div>
+                                <div class="tym">
+                                    <th>Date/Time</th>
+                                    <th>Status</th>
+                                </div>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <div class="tep">
+                                    <td>Destructions of facilities -CL</td>
+                                </div>
+                                <div class="seve">
+                                    <td>Critical</td>
+                                    <td>Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</td>
+                                </div>
+                                <div class="hend">
+                                    <td>Innocent Ekwulo</td>
+                                </div>
+                                <div class="tyme">
+                                    <td>Oct 21,2022, 4:11:05</td>
+                                    <td><button class="butt">Unresolved</button></td>
+                                </div>
+                            </tr>
+                            <tr class="tr1">
+                                <div class="tep">
+                                    <td>Destructions of facilities -CL</td>
+                                </div>
+                                <div class="seve">
+                                    <td>Critical</td>
+                                    <td>Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</td>
+                                </div>
+                                <div class="hend">
+                                    <td>Innocent Ekwulo</td>
+                                </div>
+                                <div class="tyme">
+                                    <td>Oct 21,2022, 4:11:05</td>
+                                    <td><button class="butt">Unresolved</button></td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="tep">
+                                    <td>Destructions of facilities -CL</td>
+                                </div>
+                                <div class="seve">
+                                    <td>Critical</td>
+                                    <td>Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</td>
+                                </div>
+                                <div class="hend">
+                                    <td>Innocent Ekwulo</td>
+                                </div>
+                                <div class="tyme">
+                                    <td>Oct 21,2022, 4:11:05</td>
+                                    <td><button class="butt">Unresolved</button></td>
+                                </div>
+                            </tr>
+                            <tr class="tr1">
+                                <div class="tep">
+                                    <td>Destructions of facilities -CL</td>
+                                </div>
+                                <div class="seve">
+                                    <td>Critical</td>
+                                    <td>Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</td>
+                                </div>
+                                <div class="hend">
+                                    <td>Innocent Ekwulo</td>
+                                </div>
+                                <div class="tyme">
+                                    <td>Oct 21,2022, 4:11:05</td>
+                                    <td><button class="butt">Unresolved</button></td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="tep">
+                                    <td>Destructions of facilities -CL</td>
+                                </div>
+                                <div class="seve">
+                                    <td>Critical</td>
+                                    <td>Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</td>
+                                </div>
+                                <div class="hend">
+                                    <td>Innocent Ekwulo</td>
+                                </div>
+                                <div class="tyme">
+                                    <td>Oct 21,2022, 4:11:05</td>
+                                    <td><button class="butt">Unresolved</button></td>
+                                </div>
+                            </tr>
+                            <tr class="tr1">
+                                <div class="tep">
+                                    <td>Destructions of facilities -CL</td>
+                                </div>
+                                <div class="seve">
+                                    <td>Critical</td>
+                                    <td>Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</td>
+                                </div>
+                                <div class="hend">
+                                    <td>Innocent Ekwulo</td>
+                                </div>
+                                <div class="tyme">
+                                    <td>Oct 21,2022, 4:11:05</td>
+                                    <td><button class="butt">Unresolved</button></td>
+                                </div>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer class="foot">
+                        <p>1-8 of 23</p>
+                        <div class="ral">
+                            <iconify-icon icon="lucide:move-left"></iconify-icon>
+                            <iconify-icon icon="lucide:move-right"></iconify-icon>
+                        </div>
+                        <div class="slt">
+                            <p>Rows per page</p>
+                            <select name="num" id="num">
+                                <option value="num">5</option>
+                                <option value="num">5</option>
+                                <option value="num">5</option>
+                            </select>
+                        </div>
+                    </footer>
+                </div>
+    </section>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
